@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css Day2</title>
+    <link rel="stylesheet" href="./output.css">
+
+</head>
+<body>
+    <h1 class="text-center bg-violet-600 mx-10 h-10 p-4 ">welcome to Tailwindcss Day2</h1>
+
+
+    <div class="container columns-3 bg-orange-400 mx-auto">
+        <div class="break-after-column box-border h-60 w-48 p-4 border-4">
+            <p>welcome to the box border</p>
+        </div>
+
+        <div class="break-after-column box-content h-60 w-48 p-4 border-4">
+            <p>welcome to the box content</p>
+        </div>
+
+        <div class="box-border h-60 w-48 p-4 border-4 hover:box-content">
+            <p>box boredr normally and will chane to box content on hover</p>
+        </div>
+
+    </div>
+
+     <div class="relative h-24 w-auto bg-slate-600">
+        <div class="absolute bg-green-400 left-10 top-5">
+                LoganathanRamsaraN
+        </div>
+     </div>
+
+     <div class="relative">
+        <img src="../assets/msd.avif" class="z-10 absolute left-3">
+        <img src="../assets/msd.avif" class="z-20 absolute left-40">
+        <img src="../assets/msd.avif" class="z-30 absolute left-96">
+     </div>
+
+        
+    
+</body>
+</html>
